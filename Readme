@@ -1,0 +1,19 @@
+The "Product Hunt Maker Approver" is a React-based web application designed to help manage and approve makers and their products featured on Product Hunt.  It allows moderators to view new product submissions, find maker's LinkedIn profiles, contact makers, and then approve or reject them. The application integrates with Product Hunt data (simulated in the code) and includes features for recording decisions (approval/rejection) and sending data to Google Sheets (also simulated).
+
+Key features include:
+
+Data Fetching: Simulates fetching product data from Product Hunt.
+
+Maker Information: Displays maker details, including name, username, and product information.
+
+LinkedIn Integration: Attempts to find a maker's LinkedIn profile.
+
+Contact Form: Allows sending a message to the maker.
+
+Approval/Rejection: Enables moderators to approve or reject makers.
+
+Data Handling: Simulates sending approval/rejection data to Google Sheets.
+
+UI Organization: Uses tabs to separate new, approved, and rejected makers.
+
+The application uses React, along with libraries like @radix-ui/react-tabs, framer-motion, and lucide-react.  It includes helper components like MakerCard and uses state management with useState and useCallback.  The code simulates API calls and data handling for demonstration purposes.
